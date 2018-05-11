@@ -6,6 +6,7 @@ cp ./sudoers /etc/sudoers
 
 # Make www-data user
 useradd -m www-data
+echo "Enter new password for user www-data"
 passwd www-data
 
 mkdir /home/www-data/.ssh
