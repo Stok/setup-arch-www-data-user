@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 pacman -S --noconfirm sudo
 cp ./sudoers /etc/sudoers
 
